@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:macdoclone/pages/Home.dart';
+import 'package:macdoclone/pages/Fidelite.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      initialRoute: '/',
+      routes:{
+        "/":(context)=>Home(),
+        "/Fidelite":(context)=>fidelite(),
+
+      },
+      title: 'Macdo',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -23,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+
     );
   }
 }

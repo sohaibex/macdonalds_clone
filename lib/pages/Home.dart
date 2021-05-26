@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:macdoclone/pages/menu/menu.widget.dart';
+import 'package:macdoclone/widgets/menu/menu.widget.dart';
 
-import 'card.widget.dart';
+import '../widgets/card.widget.dart';
 
 class Home extends StatefulWidget {
   const Home({Key key}) : super(key: key);
