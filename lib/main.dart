@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:macdoclone/pages/Home.dart';
 import 'package:macdoclone/pages/Fidelite.dart';
+import 'package:macdoclone/pages/map/maps.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       routes:{
         "/":(context)=>Home(),
         "/Fidelite":(context)=>fidelite(),
+        "/Restaurant":(context)=>MapSample(),
 
       },
       title: 'Macdo',

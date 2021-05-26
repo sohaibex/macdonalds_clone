@@ -11,7 +11,7 @@ class GlobalParametre {
     },
     {
       'title': 'Fidelite',
-      'route': '/fidelite',
+      'route': '/Fidelite',
       'icon': Icon(Icons.laptop_mac_rounded, color: Colors.grey, ),
     },
     {
