@@ -17,7 +17,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.purple,
         elevation: 0.0,
       ),
       drawer:menu(),
